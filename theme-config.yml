@@ -1,0 +1,16 @@
+# https://vitepress.dev/reference/default-theme-config
+nav:
+  - text: 主页
+    link: /
+  - text: 大学物理
+    items:
+      - text: 电磁学
+        link: /physics/electromagnetism/
+
+sidebar:
+  # 电磁学
+  '/physics/electromagnetism/':
+    - text: 静电场
+      items:
+        - text: 基本概念
+          link: /physics/electromagnetism/esf-basic
